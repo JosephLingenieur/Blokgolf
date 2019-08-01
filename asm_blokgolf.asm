@@ -5,7 +5,7 @@
 list  p=16F1870
 #include "p16F1870.inc"
 
-enable EQU 3           ;enable lijn keypad (enabled = 0)(port  C)
+enable EQU 3           ;enable line keypad (enabled = 0)(port  C)
 rw     EQU 5           ;r=l, w = 0 (write LCD)( port C)
 e_disp EQU 5           
 delayx EQU 20h        
